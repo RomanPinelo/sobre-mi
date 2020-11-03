@@ -1,0 +1,89 @@
+/*Hoja de estilo de pagina-principal*/
+
+/*CSS Reset*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  background: url("../activos/tulum.jpg") no-repeat center center fixed;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.principal {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 50%;
+  box-shadow: rgb(60, 60, 60) 10px 10px 80px; 
+}
+
+.sobre-mi {
+  color: cyan;
+  text-decoration: none;
+  text-align: center;
+}
+
+img {
+  height: auto;
+  width: 100%;
+  filter: brightness(130%)
+}
+
+h1 {
+  font-size: 170%;
+}
+
+h2 {
+  font-size: 140%
+}
+
+@media screen and (min-width: 425px) {
+  .principal {
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .principal {
+    width: 60%;
+    filter: grayscale(70%);
+    transition: all 1s ease-in-out;
+  }
+  
+  .sobre-mi {
+    display: flex;
+  }
+  
+  .mis-datos {
+    width: 100%;
+  }
+  
+  h1 {
+    font-size: 400%;
+    margin-top: 10%;
+  }
+  
+  h2 {
+    font-size: 250%;
+    margin-top: 5%;
+  }
+  
+  h3 {
+    font-size: 200%;
+    margin-top: 5%;
+  }
+  
+  .principal:hover {
+    filter: grayscale(10%);
+    transform: scale(1.1);
+  }
+}
+
