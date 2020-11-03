@@ -20,13 +20,13 @@ body {
 }
 
 .principal {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.8);
   width: 50%;
   box-shadow: rgb(60, 60, 60) 10px 10px 80px; 
 }
 
 .sobre-mi {
-  color: cyan;
+  color: gray;
   text-decoration: none;
   text-align: center;
 }
@@ -60,6 +60,7 @@ h2 {
   
   .sobre-mi {
     display: flex;
+    transition: all 1s ease-in-out;
   }
   
   .mis-datos {
@@ -84,6 +85,10 @@ h2 {
   .principal:hover {
     filter: grayscale(10%);
     transform: scale(1.1);
+  }
+  
+  .sobre-mi:hover {
+    color: white;
   }
 }
 
