@@ -26,7 +26,7 @@ body {
 }
 
 .sobre-mi {
-  color: gray;
+  color: white;
   text-decoration: none;
   text-align: center;
 }
@@ -60,6 +60,7 @@ h2 {
   
   .sobre-mi {
     display: flex;
+    color: gray;
     transition: all 1s ease-in-out;
   }
   
