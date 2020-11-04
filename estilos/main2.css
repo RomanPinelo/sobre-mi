@@ -1,0 +1,59 @@
+/*Esta hoja de estilo pertence al archivo pagina-tres.html*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+body {
+  font-family: "Open Sans";
+  color: #262626;
+}
+
+.contenedor-dos {
+  background-color: rgba(0, 0, 0, .2);
+  height: 100vh;
+  width: 100vw;
+  overflow: auto;
+}
+
+img {
+  height: auto;
+  width: 100%;
+}
+
+.nombre {
+  font-size: 250%;
+  font-weight: bold;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+i {
+  color: #333;
+}
+
+li {
+  margin: 5% 5%;
+  font-size: 130%;
+}
+
+h2 {
+  font-size: 200%;
+  margin: 10% 0 10% 10%;;
+}
+
+.det {
+  width: 80%;
+  font-size: 180%;
+  text-align: justify;
+  margin: 0 auto;
+}
