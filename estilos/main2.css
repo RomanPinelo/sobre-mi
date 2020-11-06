@@ -57,3 +57,87 @@ h2 {
   text-align: justify;
   margin: 0 auto;
 }
+
+.autor {
+  font-size: 115%;
+  font-weight: bold;
+  text-align: center;
+  border-top: 2px solid rgba(0, 0, 0, .06);
+  margin-top: 10%;
+  padding: 3% 0;
+}
+
+.bungee, .musico, .docente {
+  color: darkcyan;
+}
+
+@media screen and (min-width: 1024px) {
+  .fondo-izquierdo {
+    height: 100%;
+    width: 10%;
+    float: left;
+  }
+  
+  .datos{
+    color: white;
+    height: 100%;
+    width: 30%;
+    float: left;
+    background-color: #333;
+  }
+  
+  .mas-detalles {
+    background-color: #333;
+    color: white;
+    height: 100%;
+    width: 50%;
+    float: left;
+    overflow: auto;
+  }
+  
+  .fondo-derecho {
+    height: 100%;
+    width: 10%;
+    float: left;
+  }
+  
+  i {
+    color: white;
+    transition: all 1.5s ease-in-out;
+  }
+  
+  i:hover {
+    transform: scale(1.5);
+  }
+  
+  .perfil {
+    display: block;
+    height: 400px;
+    width: 300px;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin: 5% auto;
+  }
+  
+  .musico {
+    color: white;
+  }
+  
+  h2 {
+    margin-bottom: 5%;
+  }
+  
+  .autor {
+    font-size: 140%;
+    border-top: 2px solid gray;
+    padding: 4% 0;
+  }
+  
+  .bungee, .musico, .docente {
+    color: gray;
+  }
+  
+  .bungee:hover, .musico:hover, .docente:hover {
+    color: white;
+  }
+}

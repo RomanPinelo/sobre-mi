@@ -103,6 +103,14 @@ li {
   margin: 15% 10%;
 }
 
+.autor {
+  font-size: 150%;
+  font-weight: bold;
+  text-align: center;
+  border-top: 2px solid black;
+  padding: 5% 0;
+}
+
 @media screen and (min-width: 425px) {
   .nombre {
     font-size: 300%;
@@ -227,5 +235,9 @@ li {
   
   li:hover {
     transform: scale(1.5);
+  }
+  
+  .autor {
+    border-top: 2px solid white;
   }
 }

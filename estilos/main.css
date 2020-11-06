@@ -21,6 +21,7 @@ body {
 
 .principal {
   background-color: rgba(0, 0, 0, 0.8);
+  height: auto;
   width: 50%;
   box-shadow: rgb(60, 60, 60) 10px 10px 80px; 
 }
@@ -34,41 +35,68 @@ body {
 img {
   height: auto;
   width: 100%;
-  filter: brightness(130%)
 }
 
 h1 {
-  font-size: 170%;
+  font-size: 136%;
 }
 
 h2 {
-  font-size: 140%
+  font-size: 120%;
 }
 
-@media screen and (min-width: 425px) {
-  .principal {
-    width: 40%;
+@media screen and (min-width: 500px) {
+  .principal{
+    height: auto;
+    width: 35%;
+  }
+  
+  h1 {
+    font-size: 200%;
+  }
+  
+  h2 {
+    font-size: 170%;
+  }
+  
+  h3 {
+    font-size: 150%;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .principal {
+    height: 65%;
     width: 60%;
-    filter: grayscale(70%);
+    filter: grayscale(80%);
     transition: all 1s ease-in-out;
   }
   
   .sobre-mi {
+    width: 100%;
+    height: 100%;
     display: flex;
     color: gray;
     transition: all 1s ease-in-out;
   }
   
+  .mi-foto {
+    height: 100%;
+    width: 37%;
+  }
+  
   .mis-datos {
+    height: 100%;
+    width: 63%;
+  }
+  
+  img {
+    height: 100%;
     width: 100%;
   }
   
   h1 {
+    padding-top: 10%;
     font-size: 400%;
     margin-top: 10%;
   }

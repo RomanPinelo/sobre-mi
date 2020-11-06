@@ -1,0 +1,17 @@
+/*Esta hoja de estilo pertenece al archivo docente.html*/
+
+body {
+  background-color: #333;
+}
+
+img {
+  display: block;
+  height: auto;
+  width: 75%;
+  margin: 5% auto;
+}
+
+.chica {
+  height: auto;
+  width: 30%;
+}

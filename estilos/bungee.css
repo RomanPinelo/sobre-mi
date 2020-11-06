@@ -1,0 +1,29 @@
+/*Este archivo pertenece al archivo bungee.html*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+body {
+  background: -webkit-radial-gradient(center, circle, cyan, black) no-repeat center center fixed;
+  background-size: cover;
+}
+
+img {
+  display: block;
+  height: auto;
+  width: 85%;
+  margin: 35% auto;
+}
+
+@media screen and (min-width: 1024px) {
+  img {
+    display: block;
+    height: auto;
+    width: 50%;
+    margin: 7% auto;
+  } 
+}
